@@ -1,0 +1,30 @@
+#sudoku {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    width: 315px;
+    margin: 20px auto;
+}
+
+.big-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    border: 2px solid black;
+}
+
+.cell {
+    width: 33px;
+    height: 33px;
+    border: 1px solid #999;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
